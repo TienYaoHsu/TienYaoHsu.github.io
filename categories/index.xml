@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on TienYao@Tech</title>
+    <link>https://TienYaoHsu.github.io/categories/</link>
+    <description>Recent content in Categories on TienYao@Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 TienYao</copyright>
+    <lastBuildDate>Tue, 18 Feb 2025 13:44:24 +0800</lastBuildDate><atom:link href="https://TienYaoHsu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ZYNQ</title>
+      <link>https://TienYaoHsu.github.io/categories/zynq/</link>
+      <pubDate>Tue, 18 Feb 2025 13:44:24 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/categories/zynq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ROS2</title>
+      <link>https://TienYaoHsu.github.io/categories/ros2/</link>
+      <pubDate>Tue, 11 Feb 2025 09:39:10 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/categories/ros2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Verilog</title>
+      <link>https://TienYaoHsu.github.io/categories/verilog/</link>
+      <pubDate>Tue, 11 Feb 2025 09:24:56 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/categories/verilog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://TienYaoHsu.github.io/categories/c/</link>
+      <pubDate>Tue, 11 Feb 2025 08:43:17 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/categories/c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://TienYaoHsu.github.io/categories/ros/</link>
+      <pubDate>Mon, 10 Feb 2025 17:16:20 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/categories/ros/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

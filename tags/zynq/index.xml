@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZYNQ on TienYao@Tech</title>
+    <link>https://TienYaoHsu.github.io/tags/zynq/</link>
+    <description>Recent content in ZYNQ on TienYao@Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 TienYao</copyright>
+    <lastBuildDate>Tue, 18 Feb 2025 13:44:24 +0800</lastBuildDate><atom:link href="https://TienYaoHsu.github.io/tags/zynq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>🤝 FreeRTOS Task 通訊方法</title>
+      <link>https://TienYaoHsu.github.io/posts/freertos_task_communication/</link>
+      <pubDate>Tue, 18 Feb 2025 13:44:24 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/posts/freertos_task_communication/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;🤝 FreeRTOS Task 通訊方法 
+    &lt;div id=&#34;-freertos-task-%E9%80%9A%E8%A8%8A%E6%96%B9%E6%B3%95&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#-freertos-task-%E9%80%9A%E8%A8%8A%E6%96%B9%E6%B3%95&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. Queue 通訊機制 
+    &lt;div id=&#34;1-queue-%E9%80%9A%E8%A8%8A%E6%A9%9F%E5%88%B6&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-queue-%E9%80%9A%E8%A8%8A%E6%A9%9F%E5%88%B6&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;1.1 基本概念 
+    &lt;div id=&#34;11-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#11-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;Queue 是 FreeRTOS 中最常用的通訊機制，適合用於傳送資料。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>🛠️ 在 Xilinx SDK 2018.3 中使用 FreeRTOS 開發多工系統 💻</title>
+      <link>https://TienYaoHsu.github.io/posts/zynq_freertos_multitask/</link>
+      <pubDate>Tue, 11 Feb 2025 09:40:52 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/posts/zynq_freertos_multitask/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;🛠️ 在 Xilinx SDK 2018.3 中使用 FreeRTOS 開發多工系統 💻 
+    &lt;div id=&#34;-%E5%9C%A8-xilinx-sdk-20183-%E4%B8%AD%E4%BD%BF%E7%94%A8-freertos-%E9%96%8B%E7%99%BC%E5%A4%9A%E5%B7%A5%E7%B3%BB%E7%B5%B1-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#-%E5%9C%A8-xilinx-sdk-20183-%E4%B8%AD%E4%BD%BF%E7%94%A8-freertos-%E9%96%8B%E7%99%BC%E5%A4%9A%E5%B7%A5%E7%B3%BB%E7%B5%B1-&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;專案簡介 
+    &lt;div id=&#34;%E5%B0%88%E6%A1%88%E7%B0%A1%E4%BB%8B&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%B0%88%E6%A1%88%E7%B0%A1%E4%BB%8B&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;這篇文章要跟大家分享如何在 Xilinx Software Development Kit (SDK) 2018.3 版本中，使用 FreeRTOS 來開發一個多工系統。我們會實作任務管理、UART 中斷處理以及任務間的通訊機制。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

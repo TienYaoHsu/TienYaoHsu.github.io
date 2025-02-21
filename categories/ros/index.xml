@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS on TienYao@Tech</title>
+    <link>https://TienYaoHsu.github.io/categories/ros/</link>
+    <description>Recent content in ROS on TienYao@Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 TienYao</copyright>
+    <lastBuildDate>Mon, 10 Feb 2025 17:16:20 +0800</lastBuildDate><atom:link href="https://TienYaoHsu.github.io/categories/ros/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>🤖 ROS2 創建節點</title>
+      <link>https://TienYaoHsu.github.io/posts/create_ros_node/</link>
+      <pubDate>Mon, 10 Feb 2025 17:16:20 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/posts/create_ros_node/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;🤖 ROS2 創建節點 
+    &lt;div id=&#34;-ros2-%E5%89%B5%E5%BB%BA%E7%AF%80%E9%BB%9E&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#-ros2-%E5%89%B5%E5%BB%BA%E7%AF%80%E9%BB%9E&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. 建立工作空間 
+    &lt;div id=&#34;1-%E5%BB%BA%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%E5%BB%BA%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p ~/ros2_ws/src
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/ros2_ws/src
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;2. 創建套件 
+    &lt;div id=&#34;2-%E5%89%B5%E5%BB%BA%E5%A5%97%E4%BB%B6&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#2-%E5%89%B5%E5%BB%BA%E5%A5%97%E4%BB%B6&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ros2 pkg create --build-type ament_cmake hello_pkg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;3. 編寫節點程式碼 
+    &lt;div id=&#34;3-%E7%B7%A8%E5%AF%AB%E7%AF%80%E9%BB%9E%E7%A8%8B%E5%BC%8F%E7%A2%BC&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#3-%E7%B7%A8%E5%AF%AB%E7%AF%80%E9%BB%9E%E7%A8%8B%E5%BC%8F%E7%A2%BC&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;建立 C++ 源文件 
+    &lt;div id=&#34;%E5%BB%BA%E7%AB%8B-c-%E6%BA%90%E6%96%87%E4%BB%B6&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%BB%BA%E7%AB%8B-c-%E6%BA%90%E6%96%87%E4%BB%B6&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;~/ros2_ws/src/hello_pkg/src&lt;/code&gt; 目錄下創建 &lt;code&gt;hello_node.cpp&lt;/code&gt;：&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>🐢 ROS2 啟動小海龜</title>
+      <link>https://TienYaoHsu.github.io/posts/turtle_launch/</link>
+      <pubDate>Mon, 10 Feb 2025 16:59:57 +0800</pubDate>
+      
+      <guid>https://TienYaoHsu.github.io/posts/turtle_launch/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 啟動小海龜 
+    &lt;div id=&#34;-ros2-%E5%95%9F%E5%8B%95%E5%B0%8F%E6%B5%B7%E9%BE%9C&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#-ros2-%E5%95%9F%E5%8B%95%E5%B0%8F%E6%B5%B7%E9%BE%9C&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. 安裝 ROS2 Humble 
+    &lt;div id=&#34;1-%E5%AE%89%E8%A3%9D-ros2-humble&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%E5%AE%89%E8%A3%9D-ros2-humble&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+
+
+&lt;h3 class=&#34;relative group&#34;&gt;安裝步驟 
+    &lt;div id=&#34;%E5%AE%89%E8%A3%9D%E6%AD%A5%E9%A9%9F&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%AE%89%E8%A3%9D%E6%AD%A5%E9%A9%9F&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先請依照官方文件安裝 ROS2 Humble：
+&lt;a href=&#34;https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html&#34;title=&#34;前往humble安裝流程&#34; target=&#34;_blank&#34;&gt;ROS2 Humble / Ubuntu (deb packages)&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
