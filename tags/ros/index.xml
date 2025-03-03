@@ -2,19 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS on TienYao@Tech</title>
-    <link>https://TienYaoHsu.github.io/tags/ros/</link>
+    <link>http://localhost:10707/tags/ros/</link>
     <description>Recent content in ROS on TienYao@Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 TienYao</copyright>
-    <lastBuildDate>Mon, 10 Feb 2025 17:16:20 +0800</lastBuildDate><atom:link href="https://TienYaoHsu.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 09:50:16 +0800</lastBuildDate><atom:link href="http://localhost:10707/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>🤖 ROS C&#43;&#43; 程式設計風格指南</title>
+      <link>http://localhost:10707/posts/ros_cpp_style_guide/</link>
+      <pubDate>Fri, 28 Feb 2025 09:50:16 +0800</pubDate>
+      
+      <guid>http://localhost:10707/posts/ros_cpp_style_guide/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;💻 ROS C++ 程式設計風格指南 
+    &lt;div id=&#34;-ros-c-%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E9%A2%A8%E6%A0%BC%E6%8C%87%E5%8D%97&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#-ros-c-%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E9%A2%A8%E6%A0%BC%E6%8C%87%E5%8D%97&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;前言 
+    &lt;div id=&#34;%E5%89%8D%E8%A8%80&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%E5%89%8D%E8%A8%80&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;在 ROS2 開發中，良好的程式設計風格不僅能提高代碼的可讀性和可維護性，還能避免一些常見的錯誤和性能問題。本文將介紹 ROS2 中 C++ 程式設計的風格指南和最佳實踐，特別是關於節點創建的不同方式及其優缺點。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>🤖 ROS2 創建節點</title>
-      <link>https://TienYaoHsu.github.io/posts/create_ros_node/</link>
+      <link>http://localhost:10707/posts/create_ros_node/</link>
       <pubDate>Mon, 10 Feb 2025 17:16:20 +0800</pubDate>
       
-      <guid>https://TienYaoHsu.github.io/posts/create_ros_node/</guid>
+      <guid>http://localhost:10707/posts/create_ros_node/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🤖 ROS2 創建節點 
     &lt;div id=&#34;-ros2-%E5%89%B5%E5%BB%BA%E7%AF%80%E9%BB%9E&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -82,10 +114,10 @@
     
     <item>
       <title>🐢 ROS2 啟動小海龜</title>
-      <link>https://TienYaoHsu.github.io/posts/turtle_launch/</link>
+      <link>http://localhost:10707/posts/turtle_launch/</link>
       <pubDate>Mon, 10 Feb 2025 16:59:57 +0800</pubDate>
       
-      <guid>https://TienYaoHsu.github.io/posts/turtle_launch/</guid>
+      <guid>http://localhost:10707/posts/turtle_launch/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 啟動小海龜 
     &lt;div id=&#34;-ros2-%E5%95%9F%E5%8B%95%E5%B0%8F%E6%B5%B7%E9%BE%9C&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

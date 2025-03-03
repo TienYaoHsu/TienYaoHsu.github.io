@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=10707&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="ROS2, Service, " />
   
   
-  <link rel="canonical" href="https://TienYaoHsu.github.io/posts/ros2_service_node/" />
+  <link rel="canonical" href="http://localhost:10707/posts/ros2_service_node/" />
   
   
   
@@ -26,8 +26,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1c9cd0d1ebaf117272b5c4f6bd49878475cb210d5e0da4f061632d779f5bb46851881c187e6e634dba5071c4e3d80e7d5cec1dd80443b2fa68acd358f9eda881.css"
-    integrity="sha512-HJzQ0euvEXJytcT2vUmHhHXLIQ1eDaTwYWMtd59btGhRiBwYfm5jTbpQccTj2A59XOwd2ARDsvporNNY&#43;e2ogQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.eb9beeaa99d1487ec494de441fc373635cde5be47b63b078f22ad611ad3e95faa17d30555bc987dc8825262cb239f929132cd90f5f7e56fb46c3e8ce42c98c6f.css"
+    integrity="sha512-65vuqpnRSH7ElN5EH8NzY1zeW&#43;R7Y7B48irWEa0&#43;lfqhfTBVW8mH3IglJiyyOfkpEyzZD19&#43;VvtGw&#43;jOQsmMbw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:url" content="https://TienYaoHsu.github.io/posts/ros2_service_node/">
+  <meta property="og:url" content="http://localhost:10707/posts/ros2_service_node/">
   <meta property="og:site_name" content="TienYao@Tech">
   <meta property="og:title" content="🐢 ROS2 巡邏服務節點開發教學(使用 Service)">
   <meta property="og:description" content="🐢 ROS2 巡邏服務節點開發教學(使用 Service) #前言 #在本篇文章中，我們將實作一個 ROS2 的巡邏服務節點，透過 Service 和 Topic 的結合來控制 turtlesim 中的烏龜移動到指定位置。這個專案展示了如何在 ROS2 中實現服務端和客戶端的通信，以及基本的運動控制。">
@@ -95,7 +95,7 @@
     
     "abstract": "\u003ch1 class=\u0022relative group\u0022\u003e🐢 ROS2 巡邏服務節點開發教學(使用 Service) \r\n    \u003cdiv id=\u0022-ros2-%E5%B7%A1%E9%82%8F%E6%9C%8D%E5%8B%99%E7%AF%80%E9%BB%9E%E9%96%8B%E7%99%BC%E6%95%99%E5%AD%B8%E4%BD%BF%E7%94%A8-service\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\r\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\r\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#-ros2-%E5%B7%A1%E9%82%8F%E6%9C%8D%E5%8B%99%E7%AF%80%E9%BB%9E%E9%96%8B%E7%99%BC%E6%95%99%E5%AD%B8%E4%BD%BF%E7%94%A8-service\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e        \r\n    \r\n\u003c\/h1\u003e\r\n\r\n\r\n\u003ch2 class=\u0022relative group\u0022\u003e前言 \r\n    \u003cdiv id=\u0022%E5%89%8D%E8%A8%80\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\r\n    \r\n    \u003cspan\r\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\r\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\r\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#%E5%89%8D%E8%A8%80\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\r\n    \u003c\/span\u003e        \r\n    \r\n\u003c\/h2\u003e\r\n\u003cp\u003e在本篇文章中，我們將實作一個 ROS2 的巡邏服務節點，透過 Service 和 Topic 的結合來控制 turtlesim 中的烏龜移動到指定位置。這個專案展示了如何在 ROS2 中實現服務端和客戶端的通信，以及基本的運動控制。\u003c\/p\u003e",
     "inLanguage": "en",
-    "url" : "https:\/\/TienYaoHsu.github.io\/posts\/ros2_service_node\/",
+    "url" : "http:\/\/localhost:10707\/posts\/ros2_service_node\/",
     "author" : {
       "@type": "Person",
       "name": "TienYao"
@@ -178,7 +178,7 @@
             <span class="sr-only">TienYao@Tech</span>
 
             
-            <img src="/img/blowfish_logo_transparent.png" width="1000" height="1000"
+            <img src="/tienyao.png" width="140" height="141"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="TienYao@Tech" />
             
 
@@ -717,7 +717,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="TienYao" src="/img/blowfish_logo_hu_e74a130226122ae3.png" />
+      alt="TienYao" src="/tienyao_hu_ab48f2bd1812efde.png" />
     
   
   <div class="place-self-center">
@@ -2409,7 +2409,7 @@ int8 result        # 執行結果
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://TienYaoHsu.github.io/"
+  data-url="http://localhost:10707/"
   style="z-index:500"
 >
   <div
