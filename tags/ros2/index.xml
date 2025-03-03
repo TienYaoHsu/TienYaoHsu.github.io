@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ROS2 on TienYao@Tech</title>
-    <link>http://localhost:10707/tags/ros2/</link>
+    <link>http://localhost:12948/tags/ros2/</link>
     <description>Recent content in ROS2 on TienYao@Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 TienYao</copyright>
-    <lastBuildDate>Sun, 23 Feb 2025 09:24:05 +0800</lastBuildDate><atom:link href="http://localhost:10707/tags/ros2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 09:24:05 +0800</lastBuildDate><atom:link href="http://localhost:12948/tags/ros2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>🐢 ROS2 TF2 座標轉換基礎教學</title>
-      <link>http://localhost:10707/posts/tf_basics/</link>
+      <link>http://localhost:12948/posts/tf_basics/</link>
       <pubDate>Sun, 23 Feb 2025 09:24:05 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/tf_basics/</guid>
+      <guid>http://localhost:12948/posts/tf_basics/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 TF2 座標轉換基礎教學 
     &lt;div id=&#34;-ros2-tf2-%E5%BA%A7%E6%A8%99%E8%BD%89%E6%8F%9B%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -43,10 +43,10 @@
     
     <item>
       <title>🐢 ROS2 巡邏服務節點開發教學(使用 Parameters)</title>
-      <link>http://localhost:10707/posts/ros2_patrol_parameter/</link>
+      <link>http://localhost:12948/posts/ros2_patrol_parameter/</link>
       <pubDate>Tue, 11 Feb 2025 09:39:10 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_patrol_parameter/</guid>
+      <guid>http://localhost:12948/posts/ros2_patrol_parameter/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 巡邏服務節點開發教學(使用 Parameters) 
     &lt;div id=&#34;-ros2-%E5%B7%A1%E9%82%8F%E6%9C%8D%E5%8B%99%E7%AF%80%E9%BB%9E%E9%96%8B%E7%99%BC%E6%95%99%E5%AD%B8%E4%BD%BF%E7%94%A8-parameters&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -75,10 +75,10 @@
     
     <item>
       <title>🐢 ROS2 巡邏服務節點開發教學(使用 Service 和 Client)</title>
-      <link>http://localhost:10707/posts/ros2_node_srvice_client/</link>
+      <link>http://localhost:12948/posts/ros2_node_srvice_client/</link>
       <pubDate>Tue, 11 Feb 2025 09:36:19 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_node_srvice_client/</guid>
+      <guid>http://localhost:12948/posts/ros2_node_srvice_client/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 巡邏服務節點開發教學(使用 Service 和 Client) 
     &lt;div id=&#34;-ros2-%E5%B7%A1%E9%82%8F%E6%9C%8D%E5%8B%99%E7%AF%80%E9%BB%9E%E9%96%8B%E7%99%BC%E6%95%99%E5%AD%B8%E4%BD%BF%E7%94%A8-service-%E5%92%8C-client&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -107,10 +107,10 @@
     
     <item>
       <title>🐢 ROS2 巡邏服務節點開發教學(使用 Service)</title>
-      <link>http://localhost:10707/posts/ros2_service_node/</link>
+      <link>http://localhost:12948/posts/ros2_service_node/</link>
       <pubDate>Tue, 11 Feb 2025 08:44:36 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_service_node/</guid>
+      <guid>http://localhost:12948/posts/ros2_service_node/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🐢 ROS2 巡邏服務節點開發教學(使用 Service) 
     &lt;div id=&#34;-ros2-%E5%B7%A1%E9%82%8F%E6%9C%8D%E5%8B%99%E7%AF%80%E9%BB%9E%E9%96%8B%E7%99%BC%E6%95%99%E5%AD%B8%E4%BD%BF%E7%94%A8-service&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -139,10 +139,10 @@
     
     <item>
       <title>🚀 ROS2 Launch 檔案建立</title>
-      <link>http://localhost:10707/posts/ros2_launch_file_create/</link>
+      <link>http://localhost:12948/posts/ros2_launch_file_create/</link>
       <pubDate>Tue, 11 Feb 2025 08:42:05 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_launch_file_create/</guid>
+      <guid>http://localhost:12948/posts/ros2_launch_file_create/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🚀 ROS2 Launch 檔案建立 
     &lt;div id=&#34;-ros2-launch-%E6%AA%94%E6%A1%88%E5%BB%BA%E7%AB%8B&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -171,10 +171,10 @@
     
     <item>
       <title>🔍 ROS2 GDB 除錯方法 </title>
-      <link>http://localhost:10707/posts/ros2_gdb_debug/</link>
+      <link>http://localhost:12948/posts/ros2_gdb_debug/</link>
       <pubDate>Tue, 11 Feb 2025 08:39:25 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_gdb_debug/</guid>
+      <guid>http://localhost:12948/posts/ros2_gdb_debug/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🔍 ROS2 GDB 除錯方法 
     &lt;div id=&#34;-ros2-gdb-%E9%99%A4%E9%8C%AF%E6%96%B9%E6%B3%95&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

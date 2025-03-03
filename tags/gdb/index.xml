@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GDB on TienYao@Tech</title>
-    <link>http://localhost:10707/tags/gdb/</link>
+    <link>http://localhost:12948/tags/gdb/</link>
     <description>Recent content in GDB on TienYao@Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 TienYao</copyright>
-    <lastBuildDate>Tue, 11 Feb 2025 08:39:25 +0800</lastBuildDate><atom:link href="http://localhost:10707/tags/gdb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Feb 2025 08:39:25 +0800</lastBuildDate><atom:link href="http://localhost:12948/tags/gdb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>🔍 ROS2 GDB 除錯方法 </title>
-      <link>http://localhost:10707/posts/ros2_gdb_debug/</link>
+      <link>http://localhost:12948/posts/ros2_gdb_debug/</link>
       <pubDate>Tue, 11 Feb 2025 08:39:25 +0800</pubDate>
       
-      <guid>http://localhost:10707/posts/ros2_gdb_debug/</guid>
+      <guid>http://localhost:12948/posts/ros2_gdb_debug/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;🔍 ROS2 GDB 除錯方法 
     &lt;div id=&#34;-ros2-gdb-%E9%99%A4%E9%8C%AF%E6%96%B9%E6%B3%95&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
